@@ -1,0 +1,118 @@
+.footer 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+    height: 30vh;
+    width: 100vw;
+}
+
+.tele-icon 
+{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
+    border:none;
+
+}
+
+.telephone 
+{
+ 
+ color: red;
+
+}
+
+.contact 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    color: white;
+    
+}
+
+.contact > h4 
+{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.facebook 
+{
+color: white;
+background-color: red;
+border-radius: 50%;
+    font-size: 2rem;
+}
+
+.social-media 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    color: white;
+}
+.social-media , a 
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+/*Media querry for 360px */
+
+@media screen and (max-width:360px)
+{
+   .footer 
+   {
+    
+    display: grid;
+   grid-template-rows:repeat(3,1fr);
+   
+    
+    gap:2rem;
+    height: 55vh;
+    
+    
+   }
+    
+}
+
+
+
+
+
+@media screen and (max-width:450px)
+{
+    .footer 
+   {
+    
+    display: grid;
+   grid-template-rows:repeat(3,1fr);
+   
+    
+    gap:1.2rem;
+    height: 40vh;
+   
+    
+    
+   }
+
+}
+
+
+
+
+
+
+

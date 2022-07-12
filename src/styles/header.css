@@ -1,0 +1,75 @@
+.header 
+{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo 
+{
+    width: 25vw;
+    height: 15vh;
+    
+}
+
+/*Media querry for 360px */
+
+@media screen and (max-width:360px)
+{
+    .header 
+    {
+        
+        height: 12vh;
+
+    }
+
+    .logo 
+    {
+        width: 14rem;
+        height: 5rem;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width:450px)
+{
+    .header 
+    {
+
+        height: 15vh;
+
+    }
+
+    .logo 
+    {
+        width: 14rem;
+        height: 5rem;
+    }
+
+}
+
+
+@media screen and (min-width:450px)
+{
+    .header 
+    {
+
+        height: 18vh;
+
+    }
+
+    .logo 
+    {
+        width: 20rem;
+        height: 6.5rem;
+    }
+
+}

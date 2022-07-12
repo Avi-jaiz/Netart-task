@@ -1,0 +1,160 @@
+.productDetails
+{
+    display: flex;
+    flex-direction: column;
+   
+    height: fit-content;
+    align-items: center;
+    height: 25vh;
+
+}
+
+.productDetails > h3
+{
+    margin-top:0.5rem;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.list > li 
+{
+    list-style-type: none;
+    border-right: 0.1rem solid red;
+    padding: 0 0.5rem;
+    
+    
+}
+
+.product-list 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.list 
+{
+    display: flex;
+    text-decoration: none;
+  
+    font-size: 0.8rem;
+    
+    justify-content:center;
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 1rem;
+font-weight: bold;
+    font-size: 0.5rem;
+    margin-top: 1rem;
+}
+
+
+
+
+/*Media querry for 360px */
+
+@media screen and (max-width:360px)
+{
+   .productDetails
+   {
+    /* background-color: yellow; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   height: 70vh;
+   margin-top: -3rem;
+   }
+
+   .productDetails >  h3 
+   {
+    font-size: 0.8rem;
+    text-align: center;
+
+   }
+
+   .product-list 
+   {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   }
+
+   .list 
+   {
+    display: grid;
+    height: 40vh;
+    grid-template-columns: 1fr 1fr;
+   }
+
+   .list > li 
+   {
+    
+    border: none;
+    display: flex;
+    
+    align-items: center;
+    width: 10rem;
+   }
+}
+
+
+
+
+
+@media screen and (max-width:450px)
+{
+    .productDetails
+   {
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   height: 70vh;
+   margin-top: -2rem;
+
+   }
+
+   .productDetails >  h3 
+   {
+    font-size: 0.8rem;
+    text-align: center;
+
+   }
+
+   .product-list 
+   {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+   }
+
+   .list 
+   {
+    display: grid;
+    height: 40vh;
+    grid-template-columns: 1fr 1fr;
+    font-size: 0.6rem;
+   }
+
+   .list > li 
+   {
+    
+    border: none;
+    display: flex;
+    
+    align-items: center;
+    width: 10rem;
+   }
+  
+}
+
+
+
+
+
+

@@ -1,0 +1,126 @@
+.products
+{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    height: fit-content;
+    width: 98vw;
+    border-bottom: 2px solid red;
+}
+
+
+.products-pic 
+{
+    width: 80vw;
+   background: transparent;
+}
+
+.product-catalogue
+{
+    width: 70vw;
+    height: 35vh;
+    margin-top: 1.5rem;
+}
+
+.product-line 
+{
+   
+    margin:1rem 0;
+   
+}
+
+
+
+
+/*Media querry for 360px */
+
+@media screen and (max-width:360px)
+{
+   .products
+   {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    margin-top: 1.9rem;
+   }
+    .products , p {
+        font-size: 0.9rem;
+    }
+
+    .product-catalogue
+    {
+        
+        width: 15rem;
+        height: 10rem;
+        
+    }
+}
+
+
+
+
+
+@media screen and (max-width:450px)
+{
+    
+    .products
+    {
+     
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     width: 90%;
+     margin-top: 1.9rem;
+    
+    }
+     .products , p {
+         font-size: 0.9rem;
+     }
+ 
+     .product-catalogue
+     {
+         
+         width: 22rem;
+         height: 10rem;
+     }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1240px)
+{
+
+    .products
+    {
+     
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     width: 90%;
+     margin-top: 1.9rem;
+     align-items: center;
+     
+    }
+     .products , p {
+         font-size: 1.2rem;
+     }
+ 
+     .product-catalogue
+     {
+         
+         width: 24rem;
+         height: 10rem;
+     }
+
+
+}
