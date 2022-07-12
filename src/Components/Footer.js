@@ -24,7 +24,7 @@ function Footer() {
 
 <div className='icon-facebook'><BsGlobe2 className='facebook'/>
         </div>
-        <h4><a>www.crigroups.com</a></h4>
+        <h4><a href='www.crigroups.com'>www.crigroups.com</a></h4>
         </div>
         </div>
 
