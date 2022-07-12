@@ -97,10 +97,10 @@ ul
         justify-content: center;
     }
 
-    .award-pic 
+    .award-receive ,.receive-pic 
     {
-        height: 15rem;
-        width: 8rem;
+        
+        scale: 0.9;
     }
 
     .body-content
@@ -127,19 +127,13 @@ ul
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: fit-content;
-       
+        width: 5rem;
+     
         height: fit-content;
         
     }
 
-    .receive-pic 
-    {
-        width: 19rem;
-        height: 12rem;
-        
-
-    }
+   
     
 }
 

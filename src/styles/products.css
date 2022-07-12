@@ -53,9 +53,8 @@
 
     .product-catalogue
     {
-        
-        width: 15rem;
-        height: 10rem;
+      
+       scale: 0.89;
         
     }
 }
