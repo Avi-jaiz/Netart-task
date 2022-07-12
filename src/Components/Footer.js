@@ -17,14 +17,14 @@ function Footer() {
 
 <div className='icon-facebook'><BsFacebook className='facebook'/>
         </div>
-        <h4><a href='www.facebook.com/cripumps<'>www.facebook.com/cripumps</a></h4>
+        <h4><a href='https://www.facebook.com/cripumps<'>www.facebook.com/cripumps</a></h4>
         </div>
 
         <div className='social-media'>
 
 <div className='icon-facebook'><BsGlobe2 className='facebook'/>
         </div>
-        <h4><a href='www.crigroups.com'>www.crigroups.com</a></h4>
+        <h4><a href='https://www.crigroups.com'>www.crigroups.com</a></h4>
         </div>
         </div>
 
